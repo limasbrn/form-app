@@ -10,21 +10,25 @@
 <body>
 
     <section class="total_container">
-        <div class="wrap">
+        <form action="url" method="post" class="wrap">
             <h1>REGISTER</h1>
             <div>
-                <span>Username</span>
-                <input type="text" class="input_container">
+                <label for="username">Username</label>
+                <input id="username" type="text" class="input_container">
             </div>
             <div>
-                <span>E-mail</span>
-                <input type="email" class="input_container">
+                <label for="email">E-mail</label>
+                <input id="email" type="email" class="input_container">
             </div>
             <div>
-                <span>Password</span>
-                <input type="password" class="input_container">
+                <label for="password" >Password</label>
+                <input id="password" type="password" class="input_container">
             </div>
-            <button>REGISTER</button>
+            <div>
+                <label for="password2" >Confirm your password</label>
+                <input id="password2" type="password" class="input_container">
+            </div>
+            <button type="submit">REGISTER</button>
             <div class="container_link">
                 <span  class="link_span">Do you have an account?<a href="/index.html"> Sign up</a></span>
             </div>

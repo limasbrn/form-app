@@ -10,21 +10,22 @@
 <body>
 
     <section class="total_container">
-        <div class="wrap">
+      
+        <form action="url" method="get" class="wrap">
             <h1>Login</h1>
             <div>
-                <span>Username</span>
-                <input type="text" class="input_container">
+                <label for="username">Username</label>
+                <input id="username" type="text" class="input_container">
             </div>
             <div >
-                <span>Password</span>
-                <input type="password" class="input_container">
+                <label for="password">Password</label>
+                <input id="password" type="password" class="input_container">
             </div>
-            <button >LOGIN</button>
+            <button type="submit">LOGIN</button>
             <div class="container_link">
                 <span class="link_span">Don't have an account?<a href="/register.html"> Sign in </a></span>
             </div>
-        </div>
+        </form>
     </section>
     
 </body>
