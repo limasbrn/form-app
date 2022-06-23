@@ -6,20 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="/style.css">
+    
 </head>
 <body>
 
     <section class="total_container">
       
-        <form action="url" method="get" class="wrap">
+        <form id="form" action="/index.html" class="wrap">
             <h1>Login</h1>
-            <div>
+            <div class="input-control">
                 <label for="username">Username</label>
-                <input id="username" type="text" class="input_container">
+                <input id="username" name="username" type="text">
+                <div class="error"></div>
             </div>
-            <div >
+            <div class="input-control">
                 <label for="password">Password</label>
-                <input id="password" type="password" class="input_container">
+                <input id="password" name="password" type="password">
+                <div class="error"></div>
             </div>
             <button type="submit">LOGIN</button>
             <div class="container_link">

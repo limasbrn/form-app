@@ -23,11 +23,28 @@ body {
 h1{
     margin-bottom: 40px;
 }
-.input_container{
+input{
 width:100%;
 height: 35px;
 padding: 10px;
-margin-bottom: 20px;
+}
+.input-control{
+    margin-bottom:15px;
+}
+.input-control input:focus{
+    outline:none;
+}
+.input-control.success input{
+    border-color: #59A593;
+}
+.input-control.error input{
+    border-color: #BB1005;
+}
+.input-control .error {
+    color: #BB1005;
+    font-size:11px;
+    font-weight: bolder;
+    height:13px;
 }
 button {
     width:100%;

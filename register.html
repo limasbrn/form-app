@@ -6,27 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register</title>
     <link rel="stylesheet" href="style.css">
+    <script defer src="/script.js"></script>
 </head>
 <body>
 
-    <section class="total_container">
-        <form action="url" method="post" class="wrap">
+    <section  class="total_container">
+        <form class="wrap" id="form" action="/register.html">
             <h1>REGISTER</h1>
-            <div>
+            <div class="input-control">
                 <label for="username">Username</label>
-                <input id="username" type="text" class="input_container">
+                <input id="username" name="username" type="text">
+                <div class="error"></div>
             </div>
-            <div>
+            <div class="input-control">
                 <label for="email">E-mail</label>
-                <input id="email" type="email" class="input_container">
+                <input id="email" name="email" type="email">
+                <div class="error"></div>
             </div>
-            <div>
+            <div class="input-control">
                 <label for="password" >Password</label>
-                <input id="password" type="password" class="input_container">
+                <input id="password" name="password" type="password">
+                <div class="error"></div>
             </div>
-            <div>
+            <div class="input-control">
                 <label for="password2" >Confirm your password</label>
-                <input id="password2" type="password" class="input_container">
+                <input id="password2" name="password2" type="password">
+                <div class="error"></div>
             </div>
             <button type="submit">REGISTER</button>
             <div class="container_link">
