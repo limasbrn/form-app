@@ -2,7 +2,7 @@
 
 # Informações gerais
 
-Aplicação desenvolvida em Vanilla Javascript constituída de uma página de cadastro com validações dos dados inseridos e uma página de login que confere se os dados inseridos foram previamente inseridos na página de cadastro e armazenados em uma API simulada pelo Json server.
+Aplicação desenvolvida em Vanilla Javascript constituída de uma página de cadastro com validações dos dados inseridos e uma página de login que confere se os dados inseridos foram previamente cadastrados e armazenados em uma API simulada pelo Json server.
 
 ## Tecnologias utilizadas
 
