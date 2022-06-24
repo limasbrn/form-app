@@ -20,8 +20,11 @@ body {
 .wrap{
     width:80%;
 }
-h1{
-    margin-bottom: 40px;
+#alert_success{
+    color: #10725b;
+    font-weight: bolder;
+    font-size: 18px;
+    margin-bottom: 20px;
 }
 input{
 width:100%;

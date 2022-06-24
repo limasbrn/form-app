@@ -7,12 +7,14 @@
     <title>Register</title>
     <link rel="stylesheet" href="style.css">
     <script defer src="/script.js"></script>
+    <script defer src="/post.js"></script>
 </head>
 <body>
 
     <section  class="total_container">
-        <form class="wrap" id="form" >
+        <form class="wrap" id="form" onsubmit="cadastraUsuario()" >
             <h1>REGISTER</h1>
+            <h2 id="alert_success"></h2>
             <div class="input-control">
                 <label for="username">Username</label>
                 <input id="username" name="username" type="text">
