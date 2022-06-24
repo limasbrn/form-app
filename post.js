@@ -11,8 +11,6 @@ function cadastraUsuario(){
     let pass2 =document.getElementById('password2').value
     let message = document.getElementById('alert_success')
    
-
-
     body = {
         "username":userName,
         "email":email,
