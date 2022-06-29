@@ -29,3 +29,5 @@ E logo em seguida fazer as devidas instalações e rodar o projeto no navegador:
 $ npm install
 $ npm start
 ```
+
+Realizar um cadastro na página register,as informações não precisam ser verídicas, sendo exigido apenas informações no formato adequado(email ter formato de email com @ e senha com o mínimo de 8 caracteres).
