@@ -7,13 +7,15 @@
     <title>Login</title>
     <link rel="stylesheet" href="/style.css">
     <script defer src="/index.js"></script>
+    <script defer src="/get.js"></script>
 </head>
 <body>
 
     <section class="total_container">
       
-        <form id="form"  class="wrap">
+        <form id="form"  class="wrap" onsubmit=" getUsers() " method="get">
             <h1>Login</h1>
+            <h2 id="alert_success"></h2>
             <div class="input-control">
                 <label for="username">Username</label>
                 <input id="username" name="username" type="text">

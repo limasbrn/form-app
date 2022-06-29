@@ -1,9 +1,10 @@
 {
-    "register": [
-        {
-            "username": "",
-            "email": "",
-            "password": ""
-        }
-    ]
+  "register": [
+    {
+      "id": 1,
+      "username": "user",
+      "password": "12345678",
+      "email": "user@gmail.com"
+    }    
+  ]
 }
