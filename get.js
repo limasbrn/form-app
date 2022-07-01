@@ -13,19 +13,21 @@ async function getUsers() {
     if (findUser === undefined){
       alert.style.color = "#9c0e04"
       alert.innerHTML="Check your information, something is Wrong !"
-
-    }else if(findUser){
-      alert.style.color = "#10725b"
-      alert.innerHTML="WELCOME!"
-
+    
     }else if((userName === '') || (pass === '')){
       alert.style.color = "#9c0e04"
       alert.innerHTML="You left some information out!" 
+    
+    }else if(findUser){
+      alert.style.color = "#10725b"
+      alert.innerHTML="WELCOME!"
+    
+    }else{
+      alert.style.color = "#9c0e04"
+      alert.innerHTML="ERROR!"
     }
   };
    
   get()
 
 }
-
- 
