@@ -2,9 +2,8 @@
 
 # Informações gerais
 
-(em desenvolvimento...)
 
-Aplicação desenvolvida em Vanilla Javascript constituída de uma página de cadastro com validações dos dados inseridos e uma página de login que confere se os dados inseridos foram previamente cadastrados e armazenados em uma API simulada pelo Json server.
+Aplicação desenvolvida em Vanilla Javascript constituída de uma página de cadastro com validações dos dados inseridos nos respectivos formatos pré estabelecidos e armazena em uma API simulada pelo Json server. Já na página de login os dados inseridos (user e password) são autenticados, e se estiverem corretos, é gerado um token e o usuário é encaminhado para a home da aplicação.
 
 ## Tecnologias utilizadas
 
@@ -30,4 +29,4 @@ $ npm install
 $ npm start
 ```
 
-Realizar um cadastro na página register,as informações não precisam ser verídicas, sendo exigido apenas informações no formato adequado(email ter formato de email com @ e senha com o mínimo de 8 caracteres).
+É necessário realizar cadastro na página register, as informações não precisam ser verídicas, sendo exigido apenas informações no formato adequado(email ter formato de email com @ e senha com o mínimo de 8 caracteres).
