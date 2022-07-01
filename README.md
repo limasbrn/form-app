@@ -3,7 +3,7 @@
 # Informações gerais
 
 
-Aplicação desenvolvida em Vanilla Javascript constituída de uma página de cadastro com validações dos dados inseridos nos respectivos formatos pré estabelecidos e armazena em uma API simulada pelo Json server. Já na página de login os dados inseridos (user e password) são autenticados, e se estiverem corretos, é gerado um token e o usuário é encaminhado para a home da aplicação.
+Aplicação desenvolvida em Vanilla Javascript constituída de uma página de cadastro com validações dos dados inseridos nos respectivos formatos pré estabelecidos, e armazenammento em API simulada pelo Json server. Já na página de login os dados inseridos (user e password) são autenticados, e se estiverem corretos, é gerado um token e o usuário é encaminhado para a home da aplicação.
 
 ## Tecnologias utilizadas
 
